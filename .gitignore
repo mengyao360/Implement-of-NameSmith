@@ -1,0 +1,25 @@
+# Local files and generated caches
+.DS_Store
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# Compiled parsers and downloaded model/grammar files
+build/
+treesitter_envs/
+*.so
+*.dylib
+saved_models/
+outputs/
+*.log
+
+# The exact dataset is distributed as compressed parts in data/archives/.
+/data/train.jsonl
+/data/val.jsonl
+/data/test.jsonl
+*.restoring

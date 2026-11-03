@@ -1,0 +1,17 @@
+pip install spacy 
+
+pip install en_core_web_sm-3.8.0-py3-none-any.whl
+
+pip3 install torch torchvision torchaudio 
+
+pip install torch_geometric 
+
+pip install sacrebleu rouge-score 
+
+pip install peft 
+
+pip install scikit-learn 
+
+pip install pyg_lib torch_scatter torch_sparse torch_cluster torch_spline_conv -f https://data.pyg.org/whl/torch-2.7.0+cu126.html 
+
+pip install tree-sitter==0.21.3 
