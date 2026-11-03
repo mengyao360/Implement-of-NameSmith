@@ -1,7 +1,7 @@
 # Dataset
 
 The original processed splits are distributed as gzip archives split into parts of
-at most 20 MiB under `archives/`. These parts preserve the exact original JSONL
+at most 6 MiB under `archives/`. These parts preserve the exact original JSONL
 contents and fit GitHub's file upload limits.
 
 From the repository root, restore all three splits with Python 3 (no additional
